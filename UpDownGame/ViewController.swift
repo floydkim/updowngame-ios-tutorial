@@ -23,6 +23,12 @@ class ViewController: UIViewController {
     @IBAction func touchUpHitButton(_ sender: UIButton) {
         print(slider.value)
     }
+    
+    @IBAction func touchUpResetButton(_ sender: UIButton) {
+        print("touch up reset button")
+        // TODO: slider를 초기값으로 되돌리기
+        // TODO: 진행중이던 게임 데이터를 초기화하기
+    }
 
 }
 
