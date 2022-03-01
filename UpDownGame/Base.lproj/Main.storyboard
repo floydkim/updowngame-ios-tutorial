@@ -69,6 +69,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="bold"/>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="sOx-77-w8m" kind="presentation" modalTransitionStyle="crossDissolve" id="mdv-xV-J8z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seN-Ol-VoF">
                                 <rect key="frame" x="717.5" y="26" width="102.5" height="49.5"/>
