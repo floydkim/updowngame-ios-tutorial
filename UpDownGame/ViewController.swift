@@ -53,6 +53,14 @@ class ViewController: UIViewController {
             reset()
             return
         }
+        
+        if randomValue > hitValue {
+            slider.minimumValue = Float(hitValue)
+            minimumValueLabel.text = String(hitValue)
+        } else if randomValue < hitValue {
+            slider.maximumValue = Float(hitValue)
+            maximumValueLabel.text = String(hitValue)
+        }
     }
     
     @IBAction func touchUpResetButton(_ sender: UIButton) {
